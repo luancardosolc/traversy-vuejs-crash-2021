@@ -1,6 +1,9 @@
 <template>
   <div class="task">
-    <h3>{{ task.text }}</h3>
+    <h3>
+      {{ task.text }}
+      <em class="fas fa-times"></em>
+    </h3>
     <p>{{ task.day }}</p>
   </div>
 </template>
